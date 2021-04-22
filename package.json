@@ -1,0 +1,20 @@
+{
+  "name": "wa-bulk-message",
+  "version": "1.0.0",
+  "description": "To Blast WA Message",
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "node_modules/**/*",
+      "src/**/*"
+    ],
+    "targets": [
+      "node12-macos-x64",
+      "node10-win-x64"
+    ]
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "venom-bot": "^3.0.11"
+  }
+}

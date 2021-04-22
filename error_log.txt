@@ -1,0 +1,2 @@
+Failed to send message to : "62858805250093"
+Because "The number does not exist"
